@@ -36,15 +36,15 @@ These datasets come from reputable sources in the movie industry and include ins
 We merged some of the datasets and filtered out some "bad" data, for example empty content in genre column or some zero ratings. After we get rid of those, we could start the analysis our data through different aspects.
 
 ## Results
-![graph1](./images/Average Rating Across Genres.png)
+![graph1](./images/Average_Rating_Across_Genres.png)
 
 As shown above, Documentary, Animation, Family are the highest rated genre's in IMDB's database. Note that we took the mean rating per genre because there were no clear outliers that would drastically skew the data.
 
-![graph2](./images/TOP3 Directors per Recommended Genres.png)
+![graph2](./images/TOP3_Directors_per_Recommended_Genres.png)
 
 The graph above shows the top directors in each recommended genre. For Family genre, it is interesting to note that there is a large gap in ratings between the first rank director and the other two. In this case, we will only recommend Bill Condon for the Family genre.
 
-![graph3](./images/Counts of popular movies runtimes.png)
+![graph3](./images/Counts_of_popular_movies_runtimes.png)
 
 As shown above, the most frequent length of a popular movie falls between 105 and 125 minutes. We decided to bin our movies in 20 minute increments to give the movie studio a sizeable range to work with.
 
