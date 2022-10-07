@@ -36,45 +36,46 @@ These datasets come from reputable sources in the movie industry and include ins
 We merged some of the datasets and filtered out some "bad" data, for example empty content in genre column or some zero ratings. After we get rid of those, we could start the analysis our data through different aspects.
 
 ## Results
-
-Present your key results. For Phase 1, this will be findings from your descriptive analysis.
-
-***
-Questions to consider:
-* How do you interpret the results?
-* How confident are you that your results would generalize beyond the data you have?
-***
-
-Here is an example of how to embed images from your sub-folder:
-
-### Visual 1
 ![graph1](./images/viz1.png)
+
+As shown above, Documentary, Animation, Family are the highest rated genre's in IMDB's database. Note that we took the mean rating per genre because there were no clear outliers that would drastically skew the data.
+
+![graph1](./images/viz1.png)
+
+The graph above shows the top directors in each recommended genre. For Family genre, it is interesting to note that there is a large gap in ratings between the first rank director and the other two. In this case, we will only recommend Bill Condon for the Family genre.
+
+![graph1](./images/viz1.png)
+
+As shown above, the most frequent length of a popular movie falls between 105 and 125 minutes. We decided to bin our movies in 20 minute increments to give the movie studio a sizeable range to work with.
 
 ## Conclusions
 
-Provide your conclusions about the work you've done, including any limitations or next steps.
+This analysis leads to three recommendations for Microsoft Movie Studios:
 
-***
-Questions to consider:
-* What would you recommend the business do as a result of this work?
-* What are some reasons why your analysis might not fully solve the business problem?
-* What else could you do in the future to improve this project?
-***
+* Create a film in either Animation, Family, or Documentary genre
+* Choose a top rated director from one of the three genre's
+* Keep the length of your movie(s) between 105 and 125 minutes long
+
+## Next Steps
+Given more time and money, we would be able to do the following:
+
+Run a regressional analysis to evaluate what kinds of factors play a large part in the success of a film
+* Examples: Impact of advertisement spending, % increase in profits from oscar nominations, etc.
+
+Find more accurate relationships between ratings, budgets, and profits
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](./final_project.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
 
-For any additional questions, please contact **name & email, name & email**
+For any additional questions, please contact **Dermot O'Brien, & dermot.obri@gmail.com, Ziyuan Wang & zywang1994@gmail.com**
 
 ## Repository Structure
 
-Describe the structure of your repository and its contents, for example:
-
 ```
 ├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
-├── DS_Project_Presentation.pdf         <- PDF version of project presentation
-├── data                                <- Both sourced externally and generated from code
-└── images                              <- Both sourced externally and generated from code
+├── final_project.ipynb                 <- Narrative documentation of analysis in Jupyter notebook
+├── Presentation.pdf                    <- PDF version of project presentation
+└── images                              <- images folder used for project
+└── zippedData                          <- data folder used for project
 ```
