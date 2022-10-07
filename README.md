@@ -66,16 +66,16 @@ Find more accurate relationships between ratings, budgets, and profits
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./final_project.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](./final_project.ipynb) or our [presentation](./Microsoft_Movie_Studios_Presentation.pdf).
 
 For any additional questions, please contact **Dermot O'Brien, & dermot.obri@gmail.com, Ziyuan Wang & zywang1994@gmail.com**
 
 ## Repository Structure
 
 ```
-├── README.md                           <- The top-level README for reviewers of this project
-├── final_project.ipynb                 <- Narrative documentation of analysis in Jupyter notebook
-├── Presentation.pdf                    <- PDF version of project presentation
-└── images                              <- images folder used for project
-└── zippedData                          <- data folder used for project
+├── README.md                                   <- The top-level README for reviewers of this project
+├── final_project.ipynb                         <- Narrative documentation of analysis in Jupyter notebook
+├── Microsoft_Movie_Studios_Presentation.pdf    <- PDF version of project presentation
+└── images                                      <- images folder used for project
+└── zippedData                                  <- data folder used for project
 ```
