@@ -33,7 +33,7 @@ These datasets come from reputable sources in the movie industry and include ins
 
 ## Methods
 
-We merged some of the datasets and filtered out some "bad" data, for example empty content in genre column or some zero ratings. After we get rid of those, we could start the analysis our data through different aspects.
+We merged some of the datasets and filtered out some "bad" data, for example empty content in genre column or some zero ratings. After we got rid of those, we could start the analysis of our data through different aspects.
 
 ## Results
 ![graph1](./images/Average_Rating_Across_Genres.png)
